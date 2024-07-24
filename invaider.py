@@ -3,7 +3,7 @@ from util.plugins.commun import *
 
 def main():
     clear()
-    setTitle(f"@TIO Menu v{THIS_VERSION}")
+    setTitle(f"Invaider #200")
     astraahometitle()
     print(f"""      {y}[{b}+{y}]{w} Main Options:           {y}[{b}+{y}]{w} Grabber Options:         {y}[{b}+{y}]{w} Token Options:             {y}[{b}+{y}]{w} Useful Options:
 \n          {y}[{w}01{y}]{w} Self Bot               {y}[{w}06{y}]{w} File                    {y}[{w}09{y}]{w} Account Nuker            {y}[{w}15{y}]{w} Tokens Checker
@@ -116,7 +116,7 @@ def main():
         elif choice == '24':
             transition()
             astraahometitle()
-            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    @AstraaDev\n                                                {y}[{w}#{y}]{w} Server:    None\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y}]{w} Twitter:   @AstraaDev\n                                                {y}[{w}#{y}]{w} Discord:   None\n\n\n\n\n""")
+            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    Invaider\n                                                {y}[{w}#{y}]{w} Server:    None\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y} ]w wie\n                                           {y}[{w}#{y}]{w} Discord:   None\n\n\n\n\n""")
             input(f"""{y}[{b}#{y}]{w} Press ENTER to exit""")
             main()
         elif choice == '25':
@@ -135,7 +135,7 @@ def main():
 
 if __name__ == "__main__":
     import sys
-    setTitle("@TIO Loading...")
+    setTitle("Invaider Loading...")
     System.Size(120, 30)
     Anime.Fade(Center.Center(banner), Colors.purple_to_blue, Colorate.Vertical, time=1)
     if not os.path.exists("output"):
@@ -151,7 +151,7 @@ if __name__ == "__main__":
     try:
         assert sys.version_info >= (3,9)
     except AssertionError:
-        input(f"{y}[{Fore.RED}#{y}]{w} Sorry but, your python version ({sys.version_info[0]}.{sys.version_info[1]}.{sys.version_info[2]}) is not compatible with @TIO, please download python 3.9 or higher.")
+        input(f"{y}[{Fore.RED}#{y}]{w} Sorry but, your python version ({sys.version_info[0]}.{sys.version_info[1]}.{sys.version_info[2]}) is not compatible with Invaiser, please download python 3.9 or higher.")
         sys.exit()
     else:
         #search_for_updates()

@@ -12,9 +12,9 @@ w = Fore.LIGHTWHITE_EX
 def setTitle(_str):
     system = os.name
     if system == 'nt':
-        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str} - Made By Astraa")
+        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str} - Made By Invaider")
     elif system == 'posix':
-        sys.stdout.write(f"\x1b]0;{_str} - Made By Astraa\x07")
+        sys.stdout.write(f"\x1b]0;{_str} - Made By Invaider\x07")
     else:
         pass
 
@@ -89,12 +89,13 @@ def discserver():
     print(f"""{y}------------------------------------------------------------------------------------------------------------------------\n{w}ub.com/Araadev {b}|{w} https://github.com/AstraaDev {b}|{w} https://github.com/AstraaDev {b}|{w} https://github.com/AstraaDev {b}|{w} https://gi\n{y}------------------------------------------------------------------------------------------------------------------------\n""")
 
 def astraahometitle():
-    print(f"""\n\n                            ██████╗ ████████╗██╗ ██████╗     ████████╗ ██████╗  ██████╗ ██╗     
-                           ██╔═══██╗╚══██╔══╝██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     
-                           ██║██╗██║   ██║   ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     
-                           ██║██║██║   ██║   ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     
-                           ╚█║████╔╝   ██║   ██║╚██████╔╝       ██║   ╚██████╔╝╚██████╔╝███████╗
-                            ╚╝╚═══╝    ╚═╝   ╚═╝ ╚═════╝        ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝\n""".replace('█', f'{b}█{y}'))
+    print(f"""\n\n
+    幢緻Iii爰曷樔黎㌢´　　｀ⅷ輯瓲
+    艀裲f睚鳫巓襴骸　　　　贒瓲i
+    幢緻I翰儂樔黎夢'”　 　 ,ｨ傾i軌帶
+    皋袍i耘蚌紕偸′　　　 雫寬Ii軌帶
+    f篝嚠篩i縒縡ii 　　 　 Ⅷ辨f駲f
+    駲f迯瓲i軌帶′　　　　　守If迯瓲\n""".replace('█', f'{b}█{y}'))
     discserver()
 
 def selfbottitle():
@@ -305,12 +306,9 @@ def webhremovertitle():
     discserver()
 
 banner = r"""
- .d8888888b.  
-d88P"   "Y88b 
-888  d8b  888 
-888  888  888 
-888  888bd88P 
-888  Y8888P"  
-Y88b.     .d8 
- "Y88888888P"
-"""[1:]
+幢緻Iii爰曷樔黎㌢´　　｀ⅷ輯瓲
+艀裲f睚鳫巓襴骸　　　　贒瓲i
+幢緻I翰儂樔黎夢'”　 　 ,ｨ傾i軌帶
+皋袍i耘蚌紕偸′　　　 雫寬Ii軌帶
+f篝嚠篩i縒縡ii 　　 　 Ⅷ辨f駲f
+駲f迯瓲i軌帶′　　　　　守If迯瓲"""[1:]
